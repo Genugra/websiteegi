@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan untuk Kamu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #f8cdda, #1c92d2);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #1c92d2;
+            background: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background: #f8cdda;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Elemen audio untuk background -->
+    <audio id="background-music" autoplay loop controls>
+        <source src="keepyousafe.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <h1>Teruntuk Hikari Keisha Putri</h1>
+        <p>
+            Hai Hikarii, ini mungkin keliatannya lebay atau gimana, tapiii aku cuman mau ngucapin hal ini. 
+            <br><br>
+            Maaf ya Ayy aku beberapa waktu kebelakang bikin kamu kesel dan mungkin bikin kamu pusing juga. Pasti lagi cape banget yaahh, jangan lupa buat ambil waktu kamu buat istirahat yaa?
+            <br><br>
+            Setelah ngeliat kamu yang kecapean tadi siang, aku ngerasa bersalah banget, makannya aku gak berani nyamperin kamu siang tadi, aku bingung harus bilang apa. Aku sayang sama kamu tapi disatu sisi aku belum sepenuhnya ngerti sama hal ini, karena ini hal baru buat aku jadi maaf kalo misalkan aku bikin kamu pusing sama kesel ke akuu.
+            <br><br>
+            Juga ajakan aku buat ngajak kamu jalan, aku pikir itu bisa bikin kamu happy diluar tugas kuliah yang saat ini bikin kamu pusing. Tapi kayaknya ajakan aku waktunya memang kurang tepat. Aku gak tau kalo ini berlebihan atau gimana, tapi ini hal yang bisa aku lakuin untuk saat ini buat nunjukin keseriusan aku ke kamu. Dan aku juga pingin lebih kenal sama kamu, jadi kalo kamu mau cerita apapun tentang keseharian kamu, keluh kesah kamu, atau hal-hal lainnya, kamu bisa cerita ke aku, atau ke orang yang kamu percaya. Jangan sungkan yaaa, udah seharusnya aku ada di sisi kamu setelah komitmen yang kita buat di tanggal 23 November lalu.
+            <br><br>
+            Juga kalo kamu ada waktu, kamu bisa kabarin aku tentang apapun kegiatan kamu, aku gak akan maksa kamu selalu ngabarin aku. Tapi seenggak nya dengan kamu ngabarin aku, itu udah cukup bikin aku seneng dan gak khawatir. sekali lagi maaf ya ayy.
+            <br><br>
+            Terkadang aku ngerasa masih banyak cowok di luar sana yang lebih baik dari aku. Tapi makasih kamu udah nerima perasaan aku. love u 🩷
+        </p>
+        <a href="kejutan.html" class="button">Klik untuk Lihat Kejutan</a>
+    </div>
+
+    <script>
+        const music = document.getElementById('background-music');
+    
+        document.addEventListener('click', function() {
+            music.play();
+        });
+    </script>
+</body>
+</html>
